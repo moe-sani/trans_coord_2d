@@ -2,5 +2,5 @@
 build/
 latex/
 html/
-CmakeCashe.txt
-Dxyfile
+CMakeCache.txt
+Doxyfile

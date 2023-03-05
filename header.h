@@ -1,10 +1,24 @@
 #ifndef HEADER_H
 #define HEADER_H
+#include <Eigen/Core>
 
-class TestClass
+struct Point
+{
+  int x;
+  int y;
+  /* data */
+};
+
+
+
+/**
+ * @brief Transformer
+ * 
+ */
+class Transformer
 {
 public:
-  void helloworld(void);
+  void apply(Point o, int theta);
 private:
 };
 

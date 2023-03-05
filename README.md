@@ -36,4 +36,18 @@ In order to work easier with matrices, we implemented `Matrix(..., ...)` class w
 * Subtract
 * Multiply
 
-$R(\theta) $ is a function that takes in `theta` and returns back the rotation matrix in `Matrix` form.
+$ R(\theta) $ is a function that takes in `theta` and returns back the rotation matrix in `Matrix` form.
+
+
+## Doxygen Documentation
+
+If there is no Doxyfile yet, you can simply let Doxygen generate a standard template. To do so, navigate to the root of your project and run:
+
+```
+doxygen -g
+```
+
+The -g stands for generate. You should now notice a newly created file called Doxyfile. You can invoke Doxygen by simply running:
+```
+doxygen
+```
