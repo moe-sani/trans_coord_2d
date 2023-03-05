@@ -1,0 +1,6 @@
+.vscode
+build/
+latex/
+html/
+CmakeCashe.txt
+Dxyfile
