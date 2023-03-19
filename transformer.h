@@ -1,5 +1,5 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef TRANSFORMER_H
+#define TRANSFORMER_H
 #include <Eigen/Core>
 
 using Eigen::Matrix2d;
@@ -30,4 +30,4 @@ private:
   Matrix2d getRotationMatrix(Angle theta);
 };
 
-#endif // HEADER_H
+#endif // TRANSFORMER_H

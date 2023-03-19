@@ -1,0 +1,11 @@
+@startuml diagram
+class Transformer
+{
+    Matrix test 
+    void method()
+}
+object rotation
+
+Transformer -- rotation
+
+@enduml
