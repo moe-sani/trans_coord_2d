@@ -6,7 +6,7 @@ Transformer::Transformer(Point origin, Angle theta)
 {
   std::cout << "Initialising Transformer Class!" << std::endl;
   v_origin << origin.x, origin.y;
-  m_rotation = this->getRotationMatrix(theta);
+  m_rotation = this->getRotationMatrix(-theta);
 }
 
 Point Transformer::apply(Point p2)
